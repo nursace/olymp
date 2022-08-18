@@ -12,7 +12,7 @@ public class BST {
 
 class Node {
     int data;
-    Node left, right;
+    Node left, right, next;
 
     public Node(int data) {
         this.data = data;

@@ -15,6 +15,5 @@ public class BSTTest {
         root.left.left = new Node(8);
         root.left.right = new Node(12);
         assertTrue(solver.isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
-
     }
 }
